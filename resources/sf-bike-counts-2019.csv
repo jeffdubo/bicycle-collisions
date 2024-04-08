@@ -1,0 +1,120 @@
+﻿ID,Name,Address,City,State,ZIP ,Y,X,Collection_Date,To_North_AM,To_East_AM,To_South_AM,To_West_AM,To_North_PM,To_East_PM,To_South_PM,To_West_PM,To_Northeast_AM,To_Southeast_AM,To_Southwest_AM,To_Northwest_AM,To_Northeast_PM,To_Southeast_PM,To_Southwest_PM,To_Northwest_PM,Total_AM_Count,Total_PM_Count,Total_Day_Count
+1,Market St & 11th St,Market St & 11th St,San Francisco,CA,94102,37.7756,-122.419,NA,-1,-1,NA,-1,-1,-1,NA,-1,NA,-1,NA,NA,NA,NA,NA,NA,-1,-1,-1
+2,Howard St & 11th St,Howard St & 11th St,San Francisco,CA,94103,37.77312,-122.416,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+3,8th St & Townsend St,8th St & Townsend St,San Francisco,CA,94103,37.77004,-122.404,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+4,5th St & Townsend St,5th St & Townsend St,San Francisco,CA,94107,37.77535,-122.397,NA,NA,-1,-1,-1,NA,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+5,2nd St & Townsend,2nd St & Townsend St,San Francisco,CA,94107,37.78062,-122.391,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+6,The Embarcadero & Townsend St,Embarcadero & Townsend St,San Francisco,CA,94107,37.7818,-122.388,11/19/2019,540,230,870,0,691,0,1903,0,NA,NA,NA,NA,NA,NA,NA,NA,1640,2594,4234
+7,The Embarcadero & Market St,Ferry Building,San Francisco,CA,94105,37.79532,-122.394,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,NA,-1,NA,-1,NA,-1,NA,-1,-1,-1
+8,Broadway & The Embarcadero,Broadway & The Embarcadero,San Francisco,CA,94111,37.79918,-122.398,NA,-1,-1,-1,NA,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+9,Broadway & Columbus Ave,Broadway & Columbus Ave,San Francisco,CA,94133,37.79789,-122.407,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+10,SFMTA - Sutter Stockton Garage,444 Stockton St,San Francisco,CA,94108,37.79007,-122.407,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+11,Polk St & Sutter St,Polk St & Sutter St,San Francisco,CA,94109,37.78776,-122.42,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+12,Polk St & McAllister St,Polk St & McAllister St,San Francisco,CA,94102,37.78027,-122.419,10/22/2019,157,496,328,67,346,87,357,764,NA,NA,NA,NA,NA,NA,NA,NA,1048,1554,2602
+13,5th/Cyril Magnin St & Market St,Cyril Magnin St & Market St,San Francisco,CA,94102,37.784,-122.408,10/22/2019,1902,109,149,32,498,74,1875,144,NA,NA,NA,NA,NA,NA,NA,NA,2192,2591,4783
+14,16th St & 7th St,16th St & 7th St,San Francisco,CA,94107,37.76654,-122.395,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+15,Mariposa St/ Terry Francois & Illinois St,Terry A Francois Blvd & Mariposa St,San Francisco,CA,94158,37.76439,-122.388,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+16,Valencia St & 17th St,Valencia St & 17th St,San Francisco,CA,94110,37.7633,-122.422,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+17,23rd St & Potrero Ave,23rd St & Potrero Ave,San Francisco,CA,94110,37.75458,-122.406,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+18,Harrison St & Cesar Chavez,Harrison St & Cesar Chavez,San Francisco,CA,94110,37.7483,-122.412,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+19,San Jose Ave & Randall St,San Jose Ave & Randall St,San Francisco,CA,94110,37.73986,-122.424,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+20,Portola Dr & Woodside Ave/ O'Shaughnessy,Portola Dr & Woodside Ave,San Francisco,CA,94127,37.74559,-122.452,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+21,7th Ave & Kirkham St,7th Ave & Kirkham St,San Francisco,CA,94122,37.76039,-122.464,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+22,Scott St & Fell St,Scott St & Fell St,San Francisco,CA,94117,37.77427,-122.436,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+23,Page St & Scott St,Page St & Scott St,San Francisco,CA,94117,37.77242,-122.436,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+24,Masonic Ave & Golden Gate Ave,Masonic Ave & Golden Gate Ave,San Francisco,CA,94118,37.77767,-122.447,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+25,Alemany Blvd & Geneva Ave,Alemany Blvd & Geneva Ave,San Francisco,CA,94112,37.71789,-122.442,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+26,Great Hwy & Sloat Blvd,Great Hwy & Sloat Blvd,San Francisco,CA,94132,37.73541,-122.507,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+27,Winston Dr & Lake Merced Blvd,Winston Dr & Lake Merced Blvd,San Francisco,CA,94132,37.727,-122.484,NA,-1,NA,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+28,Transverse Dr & John F Kennedy Dr,Transverse Dr & John F Kennedy Dr,San Francisco,CA,94121,37.77049,-122.48,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+29,Arguello Blvd & Lake St/ Sacramento,Arguello Blvd & Lake St,San Francisco,CA,94118,37.78692,-122.459,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+30,Marina Blvd & Cervantes Blvd,Marina Blvd & Cervantes Blvd,San Francisco,CA,94123,37.80578,-122.442,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+31,Folsom St & 14th St,Folsom St & 14th St,San Francisco,CA,94103,37.76854,-122.416,10/22/2019,674,684,87,15,170,125,876,42,NA,NA,NA,NA,NA,NA,NA,NA,1460,1213,2673
+32,Panhandle/Masonic Avenue & Fell Street,Masonic Avenue & Fell Street,San Francisco,CA,94117,37.77298,-122.446,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+33,Levon Hagop Nishkian Bridge,3rd St,San Francisco,CA,94124,37.74864,-122.387,NA,-1,NA,-1,NA,-1,NA,-1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+34,Market St & 2nd St,Market St & 2nd St,San Francisco,CA,94104,37.78924,-122.401,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+35,17th/Market St & Castro,Market St & Castro St,San Francisco,CA,94114,37.76264,-122.435,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+36,7th Ave & Lincoln Way,7th Ave & Lincoln Way,San Francisco,CA,94122,37.76603,-122.464,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+37,Mission St & 16th St,Mission St & 16th St,San Francisco,CA,94103,37.76505,-122.42,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+38,Holloway Ave & 19th Ave,Holloway Ave & 19th Ave,San Francisco,CA,94132,37.72103,-122.475,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+39,Market St & Valencia St,Market St & Valencia St,San Francisco,CA,94103,37.77255,-122.423,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+40,Folsom St & 2nd St,Folsom St & 2nd St,San Francisco,CA,94107,37.78556,-122.397,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+41,Market St & Church/14th St,Market St & Church St,San Francisco,CA,94114,37.76761,-122.429,10/22/2019,28,980,21,1,84,92,36,0,201,NA,19,NA,26,NA,234,NA,1250,472,1722
+42,19th Ave & Lincoln Way,19th Ave & Lincoln Way,San Francisco,CA,94122,37.76544,-122.477,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+43,8th Ave & Clement St,8th Ave & Clement St,San Francisco,CA,94118,37.78284,-122.467,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+44,Golden Gate Bridge,Golden Gate Bridge,San Francisco,CA,,37.81827,-122.478,NA,-1,NA,-1,NA,-1,NA,-1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+45,Mission St & Cortland Ave,Mission St & Cortland Ave,San Francisco,CA,94110,37.74101,-122.423,NA,-1,NA,-1,-1,-1,NA,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+46,Mission St & Ocean Ave,Mission St & Ocean Ave,San Francisco,CA,94112,37.72389,-122.435,NA,-1,-1,-1,NA,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+47,Page St & Stanyan St,Page St & Stanyan St,San Francisco,CA,94117,37.7701,-122.454,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+48,University of California San Francisco Parnassus Campus,505 Parnassus Ave,San Francisco,CA,94143,37.76351,-122.458,NA,NA,-1,NA,-1,NA,-1,NA,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+49,Paul Ave & San Bruno Ave,Paul Ave & San Bruno Ave,San Francisco,CA,94134,37.72392,-122.402,NA,-1,-1,-1,NA,-1,-1,-1,NA,NA,NA,NA,-1,NA,NA,NA,-1,-1,-1,-1
+50,19th Ave & Sloat Blvd,19th Ave & Sloat Blvd,San Francisco,CA,94132,37.73456,-122.475,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+51,Polk St & Grove St,Polk St & Grove St,San Francisco,CA,94102,37.77848,-122.418,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+52,Bush St & Battery St,Bush St & Battery St,San Francisco,CA,94104,37.79135,-122.4,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+53,Kearny St & Bush St,Kearny St & Bush St,San Francisco,CA,94108,37.79077,-122.404,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+54,Cesar Chavez & Illinois St,Cesar Chavez & Illinois St,San Francisco,CA,94107,37.75031,-122.387,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+55,Market St & Octavia St,Market St & Octavia St,San Francisco,CA,94102,37.77201,-122.423,10/22/2019,69,760,108,82,160,191,76,1571,NA,NA,NA,NA,NA,NA,NA,NA,1019,1998,3017
+56,Folsom St & 7th St,Folsom St & 7th St,San Francisco,CA,94103,37.77677,-122.408,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+57,Howard St & 8th St,Howard St & 8th St,San Francisco,CA,94103,37.77623,-122.412,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+58,Oak St & Baker St,Oak St & Baker St,San Francisco,CA,94117,37.7727,-122.441,10/22/2019,12,32,758,4,8,15,236,8,NA,NA,NA,NA,NA,NA,NA,NA,806,267,1073
+59,Howard St & Beale St,Howard St & Beale St,San Francisco,CA,94105,37.78992,-122.394,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+60,Ortega St & 24th Ave,Ortega St & 24th Ave,San Francisco,CA,94122,37.75214,-122.482,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+61,Howard St & The Embarcadero,Howard St & The Embarcadero,San Francisco,CA,94105,37.79233,-122.391,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+62,Sloat Blvd & 34th Ave,Sloat Blvd & 34th Ave,San Francisco,CA,94116,37.73413,-122.491,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+63,48th Ave & Point Lobos Ave,48th Ave & Point Lobos Ave,San Francisco,CA,94121,37.77986,-122.509,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+64,Polk St & Green St,Polk St & Green St,San Francisco,CA,94109,37.79783,-122.422,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+65,Potrero Ave & 16th St,Potrero Ave & 16th St,San Francisco,CA,94103,37.76577,-122.408,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+66,Polk St & North Point St,Polk St & North Point St,San Francisco,CA,94109,37.80529,-122.424,10/22/2019,103,443,17,62,48,87,58,523,NA,NA,NA,NA,NA,NA,NA,NA,625,716,1341
+67,Paul Ave & Bayshore Blvd,Paul Ave & Bayshore Blvd,San Francisco,CA,94124,37.72361,-122.401,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+68,Polk St & Broadway,Polk St & Broadway,San Francisco,CA,94109,37.79594,-122.422,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+69,Folsom St & Fremont St,Folsom St & Fremont St,San Francisco,CA,94105,37.788,-122.394,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+70,22nd St & Folsom St,22nd St & Folsom St,San Francisco,CA,94110,37.75572,-122.414,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+71,Hunters Point Blvd & Innes Ave,Hunters Point Blvd & Innes Ave,San Francisco,CA,94124,37.73274,-122.377,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+72,Mission St & 24th St,Mission St & 24th St,San Francisco,CA,94110,37.75226,-122.418,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+73,9th Ave & Irving St,9th Ave & Irving St,San Francisco,CA,94122,37.76404,-122.466,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+74,34th Ave & Judah St,34th Ave & Judah St,San Francisco,CA,94122,37.76097,-122.493,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+75,Arguello Blvd & Fulton St,Arguello Blvd & Fulton St,San Francisco,CA,94118,37.77429,-122.458,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+76,Divisadero St & McAllister St,Divisadero St & McAllister St,San Francisco,CA,94115,37.77779,-122.438,10/22/2019,20,191,20,32,23,32,39,308,NA,NA,NA,NA,NA,NA,NA,NA,263,402,665
+77,Geary Blvd & Steiner St,Geary Blvd & Steiner St,San Francisco,CA,94115,37.78431,-122.435,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+78,Geary Blvd & Park Presidio Blvd,Geary Blvd & Park Presidio Blvd,San Francisco,CA,94118,37.78072,-122.472,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+79,Haight St & Divisadero St,Haight St & Divisadero St,San Francisco,CA,94117,37.77126,-122.437,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+80,Haight St & Fillmore St,Haight St & Fillmore St,San Francisco,CA,94117,37.77212,-122.43,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+81,Lombard St & Van Ness Ave,Lombard St & Van Ness Ave,San Francisco,CA,94109,37.80132,-122.424,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+82,Van Ness Ave & Sutter St,Van Ness Ave & Sutter St,San Francisco,CA,94109,37.78753,-122.422,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+83,California St & Spruce St,California St & Spruce St,San Francisco,CA,94118,37.7864,-122.453,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+84,Moscow St & Geneva Ave,Moscow St & Geneva Ave,San Francisco,CA,94112,37.71313,-122.434,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+85,Market St & Duboce Ave,Market St & Duboce Ave,San Francisco,CA,94102,37.76963,-122.426,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+86,Church St & Duboce Ave,Church St & Duboce Ave,San Francisco,CA,94117,37.76946,-122.429,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+87,Bayshore Blvd & Oakdale Ave,Bayshore Blvd & Oakdale Ave,San Francisco,CA,94124,37.74305,-122.405,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+88,Haight St & Webster St,Haight St & Webster St,San Francisco,CA,94117,37.77233,-122.429,NA,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,NA,NA,NA,NA,NA,-1,-1,-1
+89,Geneva Ave & Ocean Ave,Geneva Ave & Ocean Ave,San Francisco,CA,94112,37.72296,-122.452,NA,-1,-1,-1,-1,-1,-1,-1,-1,-1,NA,NA,NA,-1,NA,NA,NA,-1,-1,-1
+90,North Point St & The Embarcadero,North Point St & The Embarcadero,San Francisco,CA,94133,37.80739,-122.407,NA,-1,-1,NA,NA,-1,-1,NA,NA,NA,NA,-1,-1,NA,NA,-1,-1,-1,-1,-1
+91,17th & Mississippi,17th St & Mississippi St,San Francisco,CA,94107,37.76524,-122.395,NA,-1,-1,NA,-1,-1,-1,NA,-1,NA,-1,NA,NA,NA,-1,NA,NA,-1,-1,-1
+91,16th St & 4th St,16th St & 4th St,San Francisco,CA,94158,37.76684,-122.391,10/22/2019,158,151,133,33,127,102,227,85,NA,NA,NA,NA,NA,NA,NA,NA,475,541,1016
+92,Howard St & 5th St,Howard St & 5th St,San Francisco,CA,94103,37.78151,-122.405,10/22/2019,10,304,215,160,7,170,1122,264,NA,NA,NA,NA,NA,NA,NA,NA,689,1563,2252
+93,Stevenson St & 7th St,Stevenson St & 7th St,San Francisco,CA,94103,37.77998,-122.412,10/22/2019,11,39,6,192,4,27,15,972,NA,NA,NA,NA,NA,NA,NA,NA,248,1018,1266
+94,Folsom St & 8th St,Folsom St & 8th St,San Francisco,CA,94103,37.77499,-122.41,10/22/2019,784,897,4,23,226,382,16,382,NA,NA,NA,NA,NA,NA,NA,NA,212,1006,1218
+95,8th Ave & Fulton St,8th Ave & Fulton St,San Francisco,CA,94118,37.77338,-122.466,10/22/2019,54,2,155,1,176,5,71,12,NA,NA,NA,NA,NA,NA,NA,NA,212,264,476
+96,Folsom St & 11th St,Folsom St & 11th St,San Francisco,CA,94103,37.77188,-122.414,10/22/2019,882,295,6,229,168,718,22,350,NA,NA,NA,NA,NA,NA,NA,NA,1412,1258,2670
+97,17th St & Church St,17th St & Church S,San Francisco,CA,94114,37.76288,-122.429,10/22/2019,31,313,18,149,20,134,52,513,NA,NA,NA,NA,NA,NA,NA,NA,511,719,1230
+98,Vermont St & 17th St,Vermont St & 17th St,San Francisco,CA,94103,37.76468,-122.404,10/22/2019,9,580,2,110,3,145,4,726,NA,NA,NA,NA,NA,NA,NA,NA,701,878,1579
+99,Valencia St & 18th St,Valencia St & 18th St,San Francisco,CA,94110,37.76171,-122.422,10/22/2019,946,133,217,39,467,103,1195,130,NA,NA,NA,NA,NA,NA,NA,NA,1335,1895,3230
+100,20th Ave & Kirkham St,20th Ave & Kirkham St,San Francisco,CA,94122,37.75979,-122.478,10/22/2019,42,45,19,5,28,26,43,51,NA,NA,NA,NA,NA,NA,NA,NA,111,148,259
+101,22nd St & Valencia St,22nd St & Valencia St,San Francisco,CA,94110,37.75531,-122.421,10/22/2019,668,212,181,30,333,53,882,156,NA,NA,NA,NA,NA,NA,NA,NA,1091,1424,2515
+102,36th Ave & Cabrillo St,36th Ave & Cabrillo St,San Francisco,CA,94121,37.7739,-122.496,10/22/2019,25,37,23,10,46,31,12,32,NA,NA,NA,NA,NA,NA,NA,NA,95,121,216
+103,Martin Luther King Jr Dr & Transverse Dr,Martin Luther King Jr Dr & Transverse Dr,San Francisco,CA,94122,37.76596,-122.478,10/22/2019,71,23,22,20,34,40,93,91,NA,NA,NA,NA,NA,NA,NA,NA,136,258,394
+104,Leavenworth St & Turk St,Leavenworth St & Turk St,San Francisco,CA,94102,37.7828,-122.414,10/22/2019,28,108,4,29,56,18,8,134,NA,NA,NA,NA,NA,NA,NA,NA,169,216,385
+105,Baker St & Beach St,Baker St & Beach St,San Francisco,CA,94123,37.80328,-122.447,10/22/2019,8,0,18,3,16,2,27,4,NA,NA,NA,NA,NA,NA,NA,NA,29,49,78
+106,Pine St & Battery St,Pine St & Battery St,San Francisco,CA,94104,37.79226,-122.4,10/22/2019,2,1,84,34,6,2,195,33,NA,NA,NA,NA,NA,NA,NA,NA,121,236,357
+107,Broadway & Sansome St,Broadway & Sansome St,San Francisco,CA,94133,37.79845,-122.402,10/22/2019,84,77,2,17,115,45,20,68,NA,NA,NA,NA,NA,NA,NA,NA,180,248,428
+108,Cervantes Blvd & Fillmore St,Cervantes Blvd & Fillmore St,San Francisco,CA,94123,37.80276,-122.437,10/22/2019,21,62,10,13,40,47,35,100,NA,NA,NA,NA,NA,NA,NA,NA,106,222,328
+109,Folsom St & Cesar Chavez St,Folsom St & Cesar Chavez,San Francisco,CA,94110,37.74827,-122.414,10/22/2019,84,231,20,42,27,71,187,148,NA,NA,NA,NA,NA,NA,NA,NA,377,433,810
+110,Filbert St & Powell St,Filbert St & Powell St,San Francisco,CA,94133,37.80117,-122.411,10/22/2019,6,3,8,10,13,3,19,7,NA,NA,NA,NA,NA,NA,NA,NA,27,42,69
+111,Font Blvd & Lake Merced Blvd,Font Blvd & Lake Merced Blvd,San Francisco,CA,94132,37.72416,-122.485,10/22/2019,10,0,2,4,3,0,15,16,NA,NA,NA,NA,NA,NA,NA,NA,16,34,50
+112,Gennessee St & Hearst Ave,Gennessee St & Hearst Ave,San Francisco,CA,94127,37.73066,-122.451,10/22/2019,23,3,5,9,18,4,7,17,NA,NA,NA,NA,NA,NA,NA,NA,40,46,86
+113,Guerrero/Market St & Laguna St,Market St & Laguna St,San Francisco,CA,94102,37.77075,-122.425,11/19/2019,11,643,1,76,12,88,10,1423,NA,29,NA,NA,NA,11,NA,NA,760,1544,2304
+114,Page St & Webster St,Page St & Webster St,San Francisco,CA,94117,37.77325,-122.429,10/22/2019,11,844,12,13,12,89,28,153,NA,NA,NA,NA,NA,NA,NA,NA,880,282,1162
+115,Silver Ave & San Bruno Ave,Silver Ave & San Bruno Ave,San Francisco,CA,94134,37.73245,-122.406,10/22/2019,6,21,11,8,9,11,9,22,NA,NA,NA,NA,NA,NA,NA,NA,46,51,97
+116,11th St & Division St,11th St & Division St,San Francisco,CA,94103,37.76945,-122.411,10/22/2019,67,543,NA,176,98,75,NA,852,71,99,NA,NA,24,75,8,NA,957,1132,2089
+117,Jerrold Ave & Bayshore Blvd,Jerrold Ave & Bayshore Blvd,San Francisco,CA,94124,37.74739,-122.404,11/19/2019,46,NA,53,45,33,NA,78,71,1,NA,NA,NA,6,NA,NA,NA,145,188,333
+118,8th St & Division St,8th St & Division St,San Francisco,CA,94103,37.76998,-122.4039,10/22/2019,165,629,NA,43,100,250,NA,112,NA,551,243,NA,NA,279,772,NA,1631,1513,3144
