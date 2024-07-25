@@ -1,6 +1,7 @@
 # Project exclusions
 .my_resources/
 resources/traffic*.*
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
