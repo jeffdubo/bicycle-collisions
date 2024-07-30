@@ -58,8 +58,13 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
 7. Select **Close & Apply** from the Home tab.
 
 #### If you would like import updated or additional census information,
-1. Open a terminal window in the database directory and start Jupyter Notebook.
+1. Edit the [config_blank.py](data_processing/config_blank.py) file in the data_processing folder. Update the variable with your API key.You can get an API key at https://api.census.gov/data/key_signup.html.
+    ```
+    census_key = '[Enter your API key without the brackets]'
+    ```
 
+2. Save and close the file. Then rename it to config.py.
+3. Open a terminal window in the database directory and start Jupyter Notebook.
     ```
     jupyter notebook
     ```
@@ -133,7 +138,7 @@ The following data model was created in Power Bi:
 # Repository Structure
 
 This repository is organized into the following folders:
-* [images](images) - image files for Power Bi report and this README
+* [images](images) - image files for Power Bi report and README.
 * [data_processing](data_processing) - Jupyter notebook and python files to import and processes US Census data (population and bike commuter information).
 * [resources](resources) - data source files and helpful information obtained on various city websites
 * [root](/) - Power Bi Project, license file, and this readme.
