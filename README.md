@@ -40,14 +40,14 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
 
 ### Setup Instructions
 1. Verify the above software requirements and dependencies have been met on your computer.
-2. Clone this repository on your local computer. If you do not want to clone the repository, you can download the [bicycle_collisions_sf.pbix](bicycle_collisions_sf.pbix) Power Bi report and the two CSV files in the [resources](resources/) folder. You will still need to follow steps 3-7 below.
-3. Open the Power Bi Report.
-4. Select **Transform data** from the Home tab to open the Power Query Editor.
-5. Select the **resourcesFolderPath** query and replace the folder path with the full path to the [resources](resources/) folder on your computer.
+2. Clone this repository on your local computer. If you do not want to clone the entire repository, you can download the [bicycle_collisions_sf.pbix](bicycle_collisions_sf.pbix) Power Bi report and the two CSV files in the [resources](resources/) folder.
+3. Open the [Power BI Report](bicycle_collisions_sf.pbix).
+4. Select **Transform data** from the **Home** tab to open the Power Query Editor.
+5. Select the **resourcesFolderPath** query and replace the folder path with the full path to the location of the CSV files on your computer.
 
     ![setup_resources_folder_path.png](images/setup_resources_folder_path.png)
 
-6. If you would like to access traffic crashes data directly through data.sfgov.org,
+6. If you would like to access traffic collision data directly through DataSF via oData,
     * Select the **dataTrafficCrashes** query.
     * Click on the **Source** step.
     * Replace **sourceTrafficCrashesCSV** with **sourceTrafficCrashesDataSF**.
@@ -57,26 +57,27 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
     Note: You may need to review and remove rows with errors when importing data. 
 7. Select **Close & Apply** from the Home tab.
 
-#### If you would like import updated or additional census information,
-1. Edit the [config_blank.py](data_processing/config_blank.py) file in the data_processing folder. Update the variable with your API key.You can get an API key at https://api.census.gov/data/key_signup.html.
+#### If you would like to import updated or additional census information,
+1. Edit the [config_blank.py](data_processing/config_blank.py) file in the **data_processing** folder. Update the variable with your API key. You can get an API key at https://api.census.gov/data/key_signup.html.
+
     ```
     census_key = '[Enter your API key without the brackets]'
     ```
+2. Save and close the file, then rename it to **config.py**.
+3. Open a terminal window in the **data_processing** directory and start Jupyter Notebook.
 
-2. Save and close the file. Then rename it to config.py.
-3. Open a terminal window in the database directory and start Jupyter Notebook.
     ```
     jupyter notebook
     ```
-3. From Jupyter notebook, open the file [data_processing_us_census.ipynb](data_processing/data_processing_us_census.ipynb).
-4. Modify the code if necessary and run each cell to import the data, create a dataframe and export it to a CSV file.
-5. Open the Power Bi report, select **Transform data** from the Home tab and modify the **dimCensusData** query as needed.
+4. From Jupyter notebook, open the file [data_processing_us_census.ipynb](data_processing/data_processing_us_census.ipynb).
+4. Modify the code if necessary and run each cell to create and export a dataframe to a CSV file.
+5. Open the [Power BI Report](bicycle_collisions_sf.pbix), select **Transform data** from the Home tab and modify the **dimCensusData** query as needed.
 
 ### Application Usage
 
-1. Open the [bicycle_collisions_sf.pbix](bicycle_collisions_sf.pbix) Power BI Report. This report contains 5 dashboard pages and 2 ToolTip pages.
+1. Open the [bicycle_collisions_sf.pbix](bicycle_collisions_sf.pbix) Power Bi report. There are 5 dashboard pages and 2 ToolTip pages.
 
-3. Use the page tabs at the bottom or 5 icons on the left navigation menu to move between the dashboard pages. Be sure to control-click on the icons.
+3. Use the page tabs at the bottom or 5 icons on the left navigation menu to move between the dashboard pages. Be sure to control-click on the navigation icons - this is not needed with published reports.
 
     ![project_navigation.png](images/project_navigation.png)
 
@@ -90,10 +91,10 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
 
 ## Sources
 * **DataSF**: Data on traffic crashes resulting in injury was available at https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx/about_data
-* **US Census Bureau**: Data on bike communters in San Francisco was available at https://data.census.gov
+* **US Census Bureau**: Data on bike commuters in San Francisco was available at <a href="https://data.census.gov" target="_blank">https://data.census.gov</a> https://data.census.gov
 
 ## Aquisition
-* DataSF: Data was exported to a csv for initial exploration and then imported into Power Bi using an odata connection. The Power Bi report is designed to use both methods.
+* DataSF: Data was exported to a csv for initial exploration and then imported into Power Bi using an oData connection. The Power Bi report is designed to use both methods.
 * US Census Bureau: Data was imported into a pandas dataframe using the <a href="https://pypi.org/project/census/" target="_blank">census python package</a>.
 
 ## Processing
@@ -112,17 +113,15 @@ The DataSF dataset was processed using Power Query in Power Bi as follows:
 
     ![processing_sourceTrafficCrashesCSV.png](images/processing_sourceTrafficCrashesCSV.png)
 
-2. The **dataTrafficCrashes** query was created directly referencing the above query. The data was then filtered to remove rows with null values and crashes not involving bicycles.
+2. The **dataTrafficCrashes** query was created directly referencing the above query. The data was then filtered (removing rows with null values, crashes not involving bicycle and duplicates) and column values were replaced for clarity and simplicity.
 
     ![processing_dataTrafficCrashes.png](images/processing_dataTrafficCrashes.png)
 
-3. The **dimCollisionType** query was created referencing the **dataTrafficCrashes** query to get a list of the unique collision types and create a primary key column.
+3. The **dimCollisionType** query was created referencing the **dataTrafficCrashes** query to get a list of the unique collision types and create a primary key column. Similar queries were created for lists of the unique collision severities, neighborhoods, parties involved in the collisions, parties at fault and vehicle code violations.
 
     ![processing_dimCollisionType.png](images/processing_dimCollisionType.png)
 
-4. Similar queries were created for lists of the unique collision severities, neighborhoods, parties involved in the collisions, parties at fault and vehicle code violations.
-
-5. The **factCollisions** query was created referencing the **dataTrafficCrashes** query to merge all of list queries and replace text values with their primary key to optimize the data and minimize the project's storage size.  
+4. The **factCollisions** query was created referencing the **dataTrafficCrashes** query to merge all of the list queries and replace text values with their primary keys to optimize the data and minimize the project's storage size.  
 
     ![processing_factCollisions.png](images/processing_factCollisions.png)
 
@@ -138,8 +137,8 @@ The following data model was created in Power Bi:
 # Repository Structure
 
 This repository is organized into the following folders:
-* [images](images) - image files for Power Bi report and README.
-* [data_processing](data_processing) - Jupyter notebook and python files to import and processes US Census data (population and bike commuter information).
+* [images](images) - image files for the Power Bi report and this readme file.
+* [data_processing](data_processing) - Jupyter notebook and python file to import and processes US Census data.
 * [resources](resources) - data source files and helpful information obtained on various city websites
 * [root](/) - Power Bi Project, license file, and this readme.
 
@@ -147,13 +146,13 @@ This repository is organized into the following folders:
 
 # Project Evaluation
 
-This project was an incredible learning opportunity not only in expanding my Power Bi skills, but in exploring the vast amounts of data publically available through DataSF and understanding the city's Vision Zero initiative. Through reviewing their online reports and dashboards, I now see the product of their work every time I step out my door and bicycle across the city. They are focused on ending traffic deaths by continually increasing the safety of our streets and transportation systems. They are using data to evaluate and inform their projects and making this data available to the public. I also just learned that City Performance Team just completed a benchmarking project to compare San Francisco's efforts on key metrics alongside its peer cities. For more information, visit https://www.sf.gov/data/vision-zero-benchmarking-overview.
+This project was an incredible learning opportunity not only in expanding my Power Bi skills, but in exploring the vast amounts of data publically available through DataSF and understanding the city's Vision Zero initiative. Through reviewing their online reports and dashboards, I now see the product of their work every time I step out my door and bicycle across the city. The city is laser focused on ending traffic deaths by continually increasing the safety of our streets and transportation systems. They are using data to evaluate and inform their projects and making this data available to the public. I also just learned that the City Performance Team recently completed a benchmarking project to compare San Francisco's efforts on key metrics alongside its peer cities. For more information, visit https://www.sf.gov/data/vision-zero-benchmarking-overview.
 
 [Back to Table of Contents](#table-of-contents)
 
 # Future Work
 
-Some recommended areas of future work on this application include:
+Some recommended areas of future work on this project include:
 * Neighborhood Level Census Data - The collion rate by neighborhood would allow a comparison of bicycle safety between neighborhoods.
 * Vision Zero High Injury Network - Overlay high injury network on the map visual and analyze collision rates over time for the identified street sections. Map of network is available at https://sfgov.maps.arcgis.com/apps/webappviewer/index.html?id=b2743a3fc0b14dd9814cf6668fc34773.
 * Vision Zero Protected Bike Lanes - Isolate collisions on streets before and after protected lanes were installed.
@@ -163,8 +162,7 @@ Some recommended areas of future work on this application include:
 
 # Acknowledgements
 
-I foremost want to thank Maia Moran and Jacob Henke from the San Francisco Municipal Transportation Agency. They provided manual counts for 2018 and 2019, as well as automated bike counts from 2018 through 2022. They were in the process of system upgrades and were extremely helpful in the midst of system upgrades. Given the changes in the number and locations of automated bike counters over the years, I decided not to use this data as an indicator of the annual number of cyclists. They have published their data on the MTA website at https://www.sfmta.com/reports/average-weekday-bike-volumes-dashboard. 
-
+I foremost want to thank Maia Moran and Jacob Henke from the San Francisco Municipal Transportation Agency. They provided manual counts for 2018 and 2019, as well as automated bike counts from 2018 through 2022. They were extremely helpful in the midst of system upgrades and their daily work. Given the changes in the number and locations of automated bike counters over the years, I decided not to use this data as an indicator of the annual number of cyclists. They have published this data and more on the MTA website at https://www.sfmta.com/reports/average-weekday-bike-volumes-dashboard.
 
 I'd also like to acknowledge the following resources:
 *  DataSF and the Department of Public Health (DPH)- The "Traffic Crashes Resulting in Injury" dataset provides detailed information regarding traffic collisions in San Francisco and was the primary data source. DPH obtains and analyzes data from the SFPD, and publishes it through DataSF. DataSF provides access to this data through file export, API, oData and querying/visualizing the data using their online tools. Visit https://www.sf.gov/departments/city-administrator/datasf to learn more about available data and their services.
