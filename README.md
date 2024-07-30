@@ -90,12 +90,12 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
 # Data
 
 ## Sources
-* **DataSF**: Data on traffic crashes resulting in injury was available at https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx/about_data
-* **US Census Bureau**: Data on bike commuters in San Francisco was available at <a href="https://data.census.gov" target="_blank">https://data.census.gov</a> https://data.census.gov
+* **DataSF**: Data on traffic crashes resulting in injury was available at https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx/about_data.
+* **US Census Bureau**: Data on bike commuters in San Francisco was available at https://data.census.gov.
 
 ## Aquisition
 * DataSF: Data was exported to a csv for initial exploration and then imported into Power Bi using an oData connection. The Power Bi report is designed to use both methods.
-* US Census Bureau: Data was imported into a pandas dataframe using the <a href="https://pypi.org/project/census/" target="_blank">census python package</a>.
+* US Census Bureau: Data was imported into a pandas dataframe using the https://pypi.org/project/census.
 
 ## Processing
 The US Census Bureau data was processed using Python in a [Jupyter notebook](data_processing/data_processing_us_census.ipynb) as follows:
