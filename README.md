@@ -2,7 +2,7 @@
 
 # Bicycle Collisions with Injuries in San Francisco
 
-And interactive dashboard to explore bicycle collisions with injuries in San Francisco from 2013 to 2023, identify trends, and assess if and under what circumstances bicycling has gotten safer.
+An interactive dashboard to explore bicycle collisions resulting in injury in San Francisco from 2013 to 2023, identify trends, and see if bicycling has gotten safer.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ And interactive dashboard to explore bicycle collisions with injuries in San Fra
 
 ## Overview
 
-The purpose of this project was to 1) test and expand my skills using Power Bi, 2) utlize data from DataSF, and 3) explore traffic collisions with injuries involving bicyclists. My interest in bicycle collisions is quite personal as I am an avid cyclist and have been hit by a car once while cycling to work and once when riding for pleasure.
+The primary purpose of this project was create an interactive dashboard to explore traffic collisions resulting in injury that involved bicyclists. Specifically, I wanted to better understand when, where, and how these collisions occur in San Francisco. 
 
 ## Setup and Usage
 
@@ -146,14 +146,21 @@ This repository is organized into the following folders:
 
 # Project Evaluation
 
-This project was an incredible learning opportunity not only in expanding my Power Bi skills, but in exploring the vast amounts of data publically available through DataSF and understanding the city's Vision Zero initiative. Through reviewing their online reports and dashboards, I now see the product of their work every time I step out my door and bicycle across the city. The city is laser focused on ending traffic deaths by continually increasing the safety of our streets and transportation systems. They are using data to evaluate and inform their projects and making this data available to the public. I also just learned that the City Performance Team recently completed a benchmarking project to compare San Francisco's efforts on key metrics alongside its peer cities. For more information, visit https://www.sf.gov/data/vision-zero-benchmarking-overview.
+This project was an incredible learning opportunity not only in expanding my Power BI skills, but in exploring the vast amounts of data publicly available through DataSF. In the process of gathering this data, I learned about Vision Zero and became more familiar with the city's extensive efforts to reduce traffic fatalities and create safer streets for pedestrians, bicyclists and drivers. This led me to the city's online dashboards on their progress and a recent benchmarking project to compare San Francisco's efforts on key metrics alongside its peer cities. These dashboards demonstrate the city's commitment to using and sharing data to help guide policy and action. For more information, I encourage you to go to https://www.sf.gov/data/vision-zero-benchmarking and https://www.sfmta.com/vision-zero-sf.
+
+So what did I find? A few observations:
+* **The collision rate has decreased by 33.5% between 2013 and 2022.** Although the rate has increased since the Covid-19 pandemic, the rate in 2022 is still lower than the pre-pandemic rate in 2019 by 6.8%. 
+* **The Mission has consistently had the highest number of bicycle collisions per year followed by the South of Market and Financial District.** Neighborhood collision rates were not easily available by based on options for summarizing US Census data.
+* **On average, September and October have the highest number of collisions while most collisions occur from 8 to 10am and 5 to 7pm.** Interestingly, Wednesdays have the highest number of collisions.
+* **Unsafe speed by a cyclist and unsafe turn or lane change by a driver were the top two violations cited from bicycle collisions.** Drivers were identified as the faulty party more than bicyclists every year except in 2020 and 2021. This may be due to the significant changes in the number of vehicles and bicycles on the road during the pandemic.
 
 [Back to Table of Contents](#table-of-contents)
 
 # Future Work
 
 Some recommended areas of future work on this project include:
-* Neighborhood Level Census Data - The collion rate by neighborhood would allow a comparison of bicycle safety between neighborhoods.
+* Neighborhood Level Census Data - Collision rates specific to each neighborhood would allow a comparison of bicycle safety between neighborhoods.
+* Automated Bike Counters - As more data is available over time, these counts would provide a more accurate measure of the collision rate and would allow a comparision of bicycle safety on specific streets and between neighborhoods. 
 * Vision Zero High Injury Network - Overlay high injury network on the map visual and analyze collision rates over time for the identified street sections. Map of network is available at https://sfgov.maps.arcgis.com/apps/webappviewer/index.html?id=b2743a3fc0b14dd9814cf6668fc34773.
 * Vision Zero Protected Bike Lanes - Isolate collisions on streets before and after protected lanes were installed.
 * Other Vision Zero Projects - Compare collision numbers before and after implementation of other projects including improvements to the High Injury Network, 20 mph corridors, intersections with no turn on red signs, intersections with turn calming, and traffic calming devices. For more information on these projects, visit https://www.sfmta.com/vision-zero-safe-streets-progress. 
