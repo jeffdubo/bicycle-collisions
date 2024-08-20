@@ -24,7 +24,7 @@ An interactive dashboard to explore bicycle collisions resulting in injury in Sa
 
 ## Overview
 
-The primary purpose of this project was create an interactive dashboard to explore traffic collisions resulting in injury that involved bicyclists. Specifically, I wanted to better understand when, where, and how these collisions occur in San Francisco. This project also provided the opportunity to expand my Power BI skills and learn more about the types of data publicly available through DataSF.
+The primary purpose of this project was to create an interactive dashboard to explore traffic collisions resulting in injury that involved bicyclists. Specifically, I wanted to better understand when, where, and how these collisions occur in San Francisco. This project also provided the opportunity to expand my Power BI skills and learn more about the types of data publicly available through DataSF.
 
 ## Setup and Usage
 
