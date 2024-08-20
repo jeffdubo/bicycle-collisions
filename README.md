@@ -1,6 +1,6 @@
 ![background.jpg](images/background.jpg)
 
-# Bicycle Collisions with Injuries in San Francisco
+# Bicycle Collisions Resulting in Injury in San Francisco
 
 An interactive dashboard to explore bicycle collisions resulting in injury in San Francisco from 2013 to 2023, identify trends, and see if bicycling has gotten safer.
 
@@ -24,7 +24,7 @@ An interactive dashboard to explore bicycle collisions resulting in injury in Sa
 
 ## Overview
 
-The primary purpose of this project was create an interactive dashboard to explore traffic collisions resulting in injury that involved bicyclists. Specifically, I wanted to better understand when, where, and how these collisions occur in San Francisco. 
+The primary purpose of this project was create an interactive dashboard to explore traffic collisions resulting in injury that involved bicyclists. Specifically, I wanted to better understand when, where, and how these collisions occur in San Francisco. This project also provided the opportunity to expand my Power BI skills and learn more about the types of data publicly available through DataSF.
 
 ## Setup and Usage
 
@@ -70,7 +70,7 @@ Note: Items 2-4 are only needed if you will be using the Jupyter notebook to imp
     jupyter notebook
     ```
 4. From Jupyter notebook, open the file [data_processing_us_census.ipynb](data_processing/data_processing_us_census.ipynb).
-4. Modify the code if necessary and run each cell to create and export a dataframe to a CSV file.
+4. Modify the code if necessary and then run each cell to create and export a dataframe to a CSV file.
 5. Open the [Power BI Report](bicycle_collisions_sf.pbix), select **Transform data** from the Home tab and modify the **dimCensusData** query as needed.
 
 ### Application Usage
